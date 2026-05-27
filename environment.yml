@@ -1,0 +1,20 @@
+name: SpectralGraphDescriptors
+channels:
+  - conda-forge
+dependencies:
+  - chardet
+  - matplotlib
+  - networkx=3.5
+  - numpy=2.3.4
+  - opencv
+  - pandas
+  - python=3.13
+  - read-roi
+  - scikit-learn=1.7.2
+  - scipy=1.16.3
+  - seaborn
+  - setuptools
+  - shapely
+  - tifffile
+  - wcwidth
+  - pip
