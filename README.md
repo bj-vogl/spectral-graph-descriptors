@@ -70,8 +70,8 @@ The eigenvalue spectrum of the graph Laplacian is used as a compact mathematical
 ### Statistical Evaluation
 
 The extracted spectral descriptors were evaluated in supervised classification experiments using:
-- Logistic Regression
-- Random Forest
+  - [Logistic Regression](spectral_graph_metric_pavement_cells/strategies/analysis/logistic_regression_analysis.py)
+  - [Random Forest](spectral_graph_metric_pavement_cells/strategies/analysis/random_forest_analysis.py)
 
 Model performance was assessed using:
 - confusion matrices
