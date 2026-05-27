@@ -32,7 +32,7 @@ The framework combines:
 
 | Input Cell ROI | Extracted Single Cell Contour | Visibility Graph | Evaluation of Classification  (Confusion Matrix) | Ablation Study |
 |:---:|:---:|:---:|:---:|:---:|
-| ![](assets/3.png) | ![](assets/3roi.png) | ![](assets/Col-0_roi_17_vis-graph.png) | ![](assets/Mutanten_confusion_matrix.png) | ![](assets/ablation_heatmap_mutants_Q.png) |
+| ![](assets/3.png) | ![](assets/3roi.png) | ![](assets/Zeitserie_5_day_Coty_rois_14-allRois_Roi_015.roi_graph_50nodes.png) | ![](assets/Mutanten_confusion_matrix.png) | ![](assets/ablation_heatmap_mutants_Q.png) |
 
 
 ---
