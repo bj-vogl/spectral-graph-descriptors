@@ -1,7 +1,7 @@
 # Spectral Graph Descriptors for Cell Shape Analysis
 
 > Bachelor Thesis Project   
-> Python framework for graph-based feature extraction and statistical analysis of microscopic cell structures using spectral graph theory.
+> Python project for graph-based feature extraction and statistical analysis of microscopic cell structures using spectral graph theory.
 
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![Stack](https://img.shields.io/badge/stack-NumPy%20%7C%20SciPy%20%7C%20NetworkX-green.svg)]()
@@ -19,7 +19,7 @@ This repository contains the implementation developed for the Bachelor's thesis:
 The project investigates how complex biological cell morphologies can be represented and compared using graph-based methods.  
 Cell contours are transformed into visibility graphs, whose Laplacian spectra are used to derive mathematical shape descriptors for statistical analysis and classification tasks.
 
-The framework combines:
+The project combines:
 - graph-theoretical modeling
 - spectral analysis
 - feature extraction
