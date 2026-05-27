@@ -1,0 +1,452 @@
+{
+    "computation_pipeline": {
+        "Col-0": {
+            "name": "Col-0",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "mutants_reserved_Col-0_rois_7-allRois_Roi_18.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/7.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_9-allRois_Roi_13.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/9.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_5_2-allRois_Roi_9.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/5_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_5_2-allRois_Roi_4.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/5_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_9_2-allRois_Roi_13.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/9_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_8-allRois_Roi_31.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/8.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_5-allRois_Roi_22.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/5.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_11-allRois_Roi_5.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_7_2-allRois_Roi_12.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/7_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_3-allRois_Roi_21.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/3.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_4-allRois_Roi_14.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_8-allRois_Roi_15.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/8.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_10_2-allRois_Roi_5.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/10_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_10_2-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/10_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        },
+                        "mutants_reserved_Col-0_rois_7_2-allRois_Roi_2.roi": {
+                            "lsm_path": "data/input/mutants_reserved/Col-0/7_2.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Col-0"
+                        }
+                    },
+                    "default_resolution": 0.2,
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": [
+                        "data/input/mutants_reserved/Col-0/rois/7-allRois/Roi_18.roi",
+                        "data/input/mutants_reserved/Col-0/rois/9-allRois/Roi_13.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5_2-allRois/Roi_9.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5_2-allRois/Roi_4.roi",
+                        "data/input/mutants_reserved/Col-0/rois/9_2-allRois/Roi_13.roi",
+                        "data/input/mutants_reserved/Col-0/rois/8-allRois/Roi_31.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5-allRois/Roi_22.roi",
+                        "data/input/mutants_reserved/Col-0/rois/11-allRois/Roi_5.roi",
+                        "data/input/mutants_reserved/Col-0/rois/7_2-allRois/Roi_12.roi",
+                        "data/input/mutants_reserved/Col-0/rois/3-allRois/Roi_21.roi",
+                        "data/input/mutants_reserved/Col-0/rois/4-allRois/Roi_14.roi",
+                        "data/input/mutants_reserved/Col-0/rois/8-allRois/Roi_15.roi",
+                        "data/input/mutants_reserved/Col-0/rois/10_2-allRois/Roi_5.roi",
+                        "data/input/mutants_reserved/Col-0/rois/10_2-allRois/Roi_6.roi",
+                        "data/input/mutants_reserved/Col-0/rois/7_2-allRois/Roi_2.roi"
+                    ],
+                    "name_map": {
+                        "data/input/mutants_reserved/Col-0/rois/7-allRois/Roi_18.roi": "mutants_reserved_Col-0_rois_7-allRois_Roi_18.roi",
+                        "data/input/mutants_reserved/Col-0/rois/9-allRois/Roi_13.roi": "mutants_reserved_Col-0_rois_9-allRois_Roi_13.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5_2-allRois/Roi_9.roi": "mutants_reserved_Col-0_rois_5_2-allRois_Roi_9.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5_2-allRois/Roi_4.roi": "mutants_reserved_Col-0_rois_5_2-allRois_Roi_4.roi",
+                        "data/input/mutants_reserved/Col-0/rois/9_2-allRois/Roi_13.roi": "mutants_reserved_Col-0_rois_9_2-allRois_Roi_13.roi",
+                        "data/input/mutants_reserved/Col-0/rois/8-allRois/Roi_31.roi": "mutants_reserved_Col-0_rois_8-allRois_Roi_31.roi",
+                        "data/input/mutants_reserved/Col-0/rois/5-allRois/Roi_22.roi": "mutants_reserved_Col-0_rois_5-allRois_Roi_22.roi",
+                        "data/input/mutants_reserved/Col-0/rois/11-allRois/Roi_5.roi": "mutants_reserved_Col-0_rois_11-allRois_Roi_5.roi",
+                        "data/input/mutants_reserved/Col-0/rois/7_2-allRois/Roi_12.roi": "mutants_reserved_Col-0_rois_7_2-allRois_Roi_12.roi",
+                        "data/input/mutants_reserved/Col-0/rois/3-allRois/Roi_21.roi": "mutants_reserved_Col-0_rois_3-allRois_Roi_21.roi",
+                        "data/input/mutants_reserved/Col-0/rois/4-allRois/Roi_14.roi": "mutants_reserved_Col-0_rois_4-allRois_Roi_14.roi",
+                        "data/input/mutants_reserved/Col-0/rois/8-allRois/Roi_15.roi": "mutants_reserved_Col-0_rois_8-allRois_Roi_15.roi",
+                        "data/input/mutants_reserved/Col-0/rois/10_2-allRois/Roi_5.roi": "mutants_reserved_Col-0_rois_10_2-allRois_Roi_5.roi",
+                        "data/input/mutants_reserved/Col-0/rois/10_2-allRois/Roi_6.roi": "mutants_reserved_Col-0_rois_10_2-allRois_Roi_6.roi",
+                        "data/input/mutants_reserved/Col-0/rois/7_2-allRois/Roi_2.roi": "mutants_reserved_Col-0_rois_7_2-allRois_Roi_2.roi"
+                    }
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": false,
+                    "manual_pixel_distance": null,
+                    "node_count": 30,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants_reserved/Col-0",
+            "save": true,
+            "analysis_feature_key": "eigvals_Qw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": false,
+            "compute_hausdorff": false
+        },
+        "ktn1-5": {
+            "name": "ktn1-5",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "mutants_reserved_ktn1-5_rois_11-allRois_Roi_13.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_5-allRois_Roi_7.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/5.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_4-allRois_Roi_5.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_16-allRois_Roi_27.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/16.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_11-allRois_Roi_7.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_15-allRois_Roi_1.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/15.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_12-allRois_Roi_7.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/12.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_4-allRois_Roi_9.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_8-allRois_Roi_14.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/8.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_3-allRois_Roi_8.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/3.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_5-allRois_Roi_13.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/5.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_11-allRois_Roi_2.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_11-allRois_Roi_12.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_9-allRois_Roi_21.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/9.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        },
+                        "mutants_reserved_ktn1-5_rois_10-allRois_Roi_22.roi": {
+                            "lsm_path": "data/input/mutants_reserved/ktn1-5/10.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "ktn1-5"
+                        }
+                    },
+                    "default_resolution": 0.2,
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": [
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_13.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/5-allRois/Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/4-allRois/Roi_5.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/16-allRois/Roi_27.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/15-allRois/Roi_1.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/12-allRois/Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/4-allRois/Roi_9.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/8-allRois/Roi_14.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/3-allRois/Roi_8.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/5-allRois/Roi_13.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_2.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_12.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/9-allRois/Roi_21.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/10-allRois/Roi_22.roi"
+                    ],
+                    "name_map": {
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_13.roi": "mutants_reserved_ktn1-5_rois_11-allRois_Roi_13.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/5-allRois/Roi_7.roi": "mutants_reserved_ktn1-5_rois_5-allRois_Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/4-allRois/Roi_5.roi": "mutants_reserved_ktn1-5_rois_4-allRois_Roi_5.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/16-allRois/Roi_27.roi": "mutants_reserved_ktn1-5_rois_16-allRois_Roi_27.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_7.roi": "mutants_reserved_ktn1-5_rois_11-allRois_Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/15-allRois/Roi_1.roi": "mutants_reserved_ktn1-5_rois_15-allRois_Roi_1.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/12-allRois/Roi_7.roi": "mutants_reserved_ktn1-5_rois_12-allRois_Roi_7.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/4-allRois/Roi_9.roi": "mutants_reserved_ktn1-5_rois_4-allRois_Roi_9.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/8-allRois/Roi_14.roi": "mutants_reserved_ktn1-5_rois_8-allRois_Roi_14.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/3-allRois/Roi_8.roi": "mutants_reserved_ktn1-5_rois_3-allRois_Roi_8.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/5-allRois/Roi_13.roi": "mutants_reserved_ktn1-5_rois_5-allRois_Roi_13.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_2.roi": "mutants_reserved_ktn1-5_rois_11-allRois_Roi_2.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/11-allRois/Roi_12.roi": "mutants_reserved_ktn1-5_rois_11-allRois_Roi_12.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/9-allRois/Roi_21.roi": "mutants_reserved_ktn1-5_rois_9-allRois_Roi_21.roi",
+                        "data/input/mutants_reserved/ktn1-5/rois/10-allRois/Roi_22.roi": "mutants_reserved_ktn1-5_rois_10-allRois_Roi_22.roi"
+                    }
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": false,
+                    "manual_pixel_distance": null,
+                    "node_count": 30,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants_reserved/ktn1-5",
+            "save": true,
+            "analysis_feature_key": "eigvals_Qw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": false,
+            "compute_hausdorff": false
+        },
+        "OX16_11_1_4": {
+            "name": "OX16_11_1_4",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_28.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_3.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_15-allRois_Roi_5.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/15.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_6-allRois_Roi_19.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/6.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_5-allRois_Roi_15.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/5.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_9-allRois_Roi_25.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/9.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_12-allRois_Roi_13.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/12.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_8-allRois_Roi_7.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/8.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_18-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/18.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_3-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/3.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_14-allRois_Roi_2.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/14.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_11-allRois_Roi_3.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/11.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_6-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/6.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_16-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/16.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        },
+                        "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_6.roi": {
+                            "lsm_path": "data/input/mutants_reserved/OX16_11_1_4/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "OX16_11_1_4"
+                        }
+                    },
+                    "default_resolution": 0.2,
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": [
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_28.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_3.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/15-allRois/Roi_5.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/6-allRois/Roi_19.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/5-allRois/Roi_15.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/9-allRois/Roi_25.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/12-allRois/Roi_13.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/8-allRois/Roi_7.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/18-allRois/Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/3-allRois/Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/14-allRois/Roi_2.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/11-allRois/Roi_3.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/6-allRois/Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/16-allRois/Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_6.roi"
+                    ],
+                    "name_map": {
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_28.roi": "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_28.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_3.roi": "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_3.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/15-allRois/Roi_5.roi": "mutants_reserved_OX16_11_1_4_rois_15-allRois_Roi_5.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/6-allRois/Roi_19.roi": "mutants_reserved_OX16_11_1_4_rois_6-allRois_Roi_19.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/5-allRois/Roi_15.roi": "mutants_reserved_OX16_11_1_4_rois_5-allRois_Roi_15.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/9-allRois/Roi_25.roi": "mutants_reserved_OX16_11_1_4_rois_9-allRois_Roi_25.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/12-allRois/Roi_13.roi": "mutants_reserved_OX16_11_1_4_rois_12-allRois_Roi_13.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/8-allRois/Roi_7.roi": "mutants_reserved_OX16_11_1_4_rois_8-allRois_Roi_7.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/18-allRois/Roi_6.roi": "mutants_reserved_OX16_11_1_4_rois_18-allRois_Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/3-allRois/Roi_6.roi": "mutants_reserved_OX16_11_1_4_rois_3-allRois_Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/14-allRois/Roi_2.roi": "mutants_reserved_OX16_11_1_4_rois_14-allRois_Roi_2.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/11-allRois/Roi_3.roi": "mutants_reserved_OX16_11_1_4_rois_11-allRois_Roi_3.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/6-allRois/Roi_6.roi": "mutants_reserved_OX16_11_1_4_rois_6-allRois_Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/16-allRois/Roi_6.roi": "mutants_reserved_OX16_11_1_4_rois_16-allRois_Roi_6.roi",
+                        "data/input/mutants_reserved/OX16_11_1_4/rois/4-allRois/Roi_6.roi": "mutants_reserved_OX16_11_1_4_rois_4-allRois_Roi_6.roi"
+                    }
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": false,
+                    "manual_pixel_distance": null,
+                    "node_count": 30,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants_reserved/OX16_11_1_4",
+            "save": true,
+            "analysis_feature_key": "eigvals_Qw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": false,
+            "compute_hausdorff": false
+        }
+    },
+    "analysis_pipeline": [],
+    "persistence_pipeline": [
+        {
+            "class": "spectral_graph_metric_pavement_cells.core.pipelines.persistence_pipeline.PersistencePipeline",
+            "save_dir": "data/results/models",
+            "strategy": "spectral_graph_metric_pavement_cells.strategies.persistence.joblib_persistence.JoblibPersistence"
+        }
+    ],
+    "prediction_pipeline": [
+        {
+            "class": "spectral_graph_metric_pavement_cells.core.pipelines.prediction_pipeline.PredictionPipeline",
+            "strategy": "spectral_graph_metric_pavement_cells.strategies.prediction.logistic_regression_prediction.LogisticRegressionPrediction"
+        }
+    ],
+    "save_path": "data/results/prediction_config_mutants",
+    "config_name": "prediction_config_mutants"
+}

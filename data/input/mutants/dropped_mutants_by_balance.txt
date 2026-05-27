@@ -1,0 +1,88 @@
+--- Current Statistics ---
+Class 'Col-0': 161 samples
+Class 'ktn1-5': 156 samples
+Class 'OX16_11_1_4': 226 samples
+
+Minimum class size found: 156
+Targeting 156 samples per class.
+-> Class 'Col-0' has 161. trimming 5 files...
+-> Class 'ktn1-5' is already at minimum (156). No changes.
+-> Class 'OX16_11_1_4' has 226. trimming 70 files...
+
+Total files to delete: 75
+------------------------------
+[WOULD DELETE] data/input/mutants/Col-0/rois/4-allRois/Roi_25.roi
+[WOULD DELETE] data/input/mutants/Col-0/rois/4-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/Col-0/rois/5-allRois/Roi_24.roi
+[WOULD DELETE] data/input/mutants/Col-0/rois/10-allRois/Roi_2.roi
+[WOULD DELETE] data/input/mutants/Col-0/rois/11-allRois/Roi_16.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_14.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_24.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_20.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_16.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_5.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_17.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/15-allRois/Roi_2.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_18.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/11-allRois/Roi_10.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_15.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_20.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_11.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_15.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_8.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/6-allRois/Roi_12.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/16-allRois/Roi_4.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/15-allRois/Roi_1.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/6-allRois/Roi_18.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_10.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_12.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/17-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_21.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/8-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/14-allRois/Roi_14.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_12.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_11.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_3.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/6-allRois/Roi_1.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/7-allRois/Roi_15.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/11-allRois/Roi_16.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_4.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_8.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/7-allRois/Roi_12.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/10-allRois/Roi_17.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/10-allRois/Roi_11.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_27.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/8-allRois/Roi_10.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_3.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/13-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/14-allRois/Roi_8.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/15-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/10-allRois/Roi_7.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_15.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_8.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/15-allRois/Roi_14.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_10.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/1-allRois/Roi_1.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_23.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/8-allRois/Roi_11.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_11.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_6.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/16-allRois/Roi_12.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/11-allRois/Roi_9.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_6.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_14.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_26.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_5.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_19.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/14-allRois/Roi_5.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_21.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/10-allRois/Roi_6.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_17.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_15.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/7-allRois/Roi_6.roi
+[WOULD DELETE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_16.roi

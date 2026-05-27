@@ -1,0 +1,201 @@
+{
+    "computation_pipeline": {
+        "Col-0": {
+            "name": "Col-0",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "Roi_22.roi": {
+                            "lsm_path": "data/input/mutants/Col-0/3.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Roi_22.roi"
+                        }
+                    },
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": null,
+                    "name_map": {}
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": true,
+                    "manual_pixel_distance": null,
+                    "node_count": 25,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants/Col-0/rois/3-allRois/Roi_22.roi",
+            "save": true,
+            "analysis_feature_key": "eigvals_Lw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": true,
+            "compute_hausdorff": false
+        },
+        "ktn1": {
+            "name": "ktn1",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "Roi_1.roi": {
+                            "lsm_path": "data/input/mutants/ktn1-5/4.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Roi_1.roi"
+                        }
+                    },
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": null,
+                    "name_map": {}
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": true,
+                    "manual_pixel_distance": null,
+                    "node_count": 25,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants/ktn1-5/rois/4-allRois/Roi_1.roi",
+            "save": true,
+            "analysis_feature_key": "eigvals_Lw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": true,
+            "compute_hausdorff": false
+        },
+        "OX16": {
+            "name": "OX16",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.roi_reader.RoiReader",
+                "params": {
+                    "images": {
+                        "Roi_7.roi": {
+                            "lsm_path": "data/input/mutants/OX16_11_1_4/5.lsm",
+                            "raw_contour": "numpy.ndarray",
+                            "collection_name": "Roi_7.roi"
+                        }
+                    },
+                    "mask_shape": [
+                        1024,
+                        1024
+                    ],
+                    "include_files": null,
+                    "name_map": {}
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": true,
+                    "manual_pixel_distance": null,
+                    "node_count": 25,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": null,
+                "params": {}
+            },
+            "data_path": "data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_7.roi",
+            "save": true,
+            "analysis_feature_key": "eigvals_Lw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": true,
+            "compute_hausdorff": false
+        },
+        "Convex": {
+            "name": "Convex",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.jpeg_reader.JpegReader",
+                "params": {
+                    "images": {
+                        "convex_hexagon.jpg": {
+                            "collection_name": "convex_shapes"
+                        },
+                        "convex_circle.jpg": {
+                            "collection_name": "convex_shapes"
+                        },
+                        "convex_square.jpg": {
+                            "collection_name": "convex_shapes"
+                        },
+                        "convex_triangle.jpg": {
+                            "collection_name": "convex_shapes"
+                        },
+                        "convex_pentagon.jpg": {
+                            "collection_name": "convex_shapes"
+                        }
+                    },
+                    "default_resolution": 0.2
+                }
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.contour_graph.ContourGraph",
+                "params": {
+                    "plot": true,
+                    "manual_pixel_distance": null,
+                    "node_count": 25,
+                    "node_coverage": 0.65,
+                    "normalize_by": "max_dist"
+                }
+            },
+            "distance": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.distances.euclidean_distance.EuclideanDistance",
+                "params": {}
+            },
+            "data_path": "data/input/convex_shapes",
+            "save": true,
+            "analysis_feature_key": "eigvals_Lw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": true,
+            "compute_hausdorff": false
+        },
+        "Pickle": {
+            "name": "Pickle",
+            "reader": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.readers.pickle_reader.PickleReader",
+                "params": {}
+            },
+            "graph": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.graphs.pickle_graph.PickleGraph",
+                "params": {
+                    "plot": true
+                }
+            },
+            "distance": {
+                "class": "spectral_graph_metric_pavement_cells.strategies.distances.ks_distance.KSDistance",
+                "params": {}
+            },
+            "data_path": "data/input/GraVis_SourceData/FigS8/FigS8_visibilityGraphsPavementCells.gpickle",
+            "save": true,
+            "analysis_feature_key": "eigvals_Lw",
+            "weight_func_name": "distance_norm",
+            "plot_contour": true,
+            "compute_hausdorff": false
+        }
+    },
+    "analysis_pipeline": [],
+    "persistence_pipeline": null,
+    "prediction_pipeline": null,
+    "save_path": "data/results/example_config_single",
+    "config_name": "example_config_single"
+}

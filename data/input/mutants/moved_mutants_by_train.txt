@@ -1,0 +1,58 @@
+ource: data/input/mutants
+Destination: data/input/reserved_mutants
+Split Ratio: 10.0%
+
+Class 'Col-0': Found 156. Moving 15 (10%).
+Class 'ktn1-5': Found 156. Moving 15 (10%).
+Class 'OX16_11_1_4': Found 156. Moving 15 (10%).
+
+========================================
+LIST OF MOVED FILES
+========================================
+[WOULD MOVE] data/input/mutants/Col-0/rois/7_2-allRois/Roi_2.roi -> data/input/reserved_mutants/Col-0/rois/7_2-allRois/Roi_2.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/4-allRois/Roi_14.roi -> data/input/reserved_mutants/Col-0/rois/4-allRois/Roi_14.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/3-allRois/Roi_21.roi -> data/input/reserved_mutants/Col-0/rois/3-allRois/Roi_21.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/10_2-allRois/Roi_6.roi -> data/input/reserved_mutants/Col-0/rois/10_2-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/9_2-allRois/Roi_13.roi -> data/input/reserved_mutants/Col-0/rois/9_2-allRois/Roi_13.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/5-allRois/Roi_22.roi -> data/input/reserved_mutants/Col-0/rois/5-allRois/Roi_22.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/5_2-allRois/Roi_9.roi -> data/input/reserved_mutants/Col-0/rois/5_2-allRois/Roi_9.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/8-allRois/Roi_15.roi -> data/input/reserved_mutants/Col-0/rois/8-allRois/Roi_15.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/8-allRois/Roi_31.roi -> data/input/reserved_mutants/Col-0/rois/8-allRois/Roi_31.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/7-allRois/Roi_18.roi -> data/input/reserved_mutants/Col-0/rois/7-allRois/Roi_18.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/9-allRois/Roi_13.roi -> data/input/reserved_mutants/Col-0/rois/9-allRois/Roi_13.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/11-allRois/Roi_5.roi -> data/input/reserved_mutants/Col-0/rois/11-allRois/Roi_5.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/5_2-allRois/Roi_4.roi -> data/input/reserved_mutants/Col-0/rois/5_2-allRois/Roi_4.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/10_2-allRois/Roi_5.roi -> data/input/reserved_mutants/Col-0/rois/10_2-allRois/Roi_5.roi
+[WOULD MOVE] data/input/mutants/Col-0/rois/7_2-allRois/Roi_12.roi -> data/input/reserved_mutants/Col-0/rois/7_2-allRois/Roi_12.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/16-allRois/Roi_27.roi -> data/input/reserved_mutants/ktn1-5/rois/16-allRois/Roi_27.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/5-allRois/Roi_7.roi -> data/input/reserved_mutants/ktn1-5/rois/5-allRois/Roi_7.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/11-allRois/Roi_7.roi -> data/input/reserved_mutants/ktn1-5/rois/11-allRois/Roi_7.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/8-allRois/Roi_14.roi -> data/input/reserved_mutants/ktn1-5/rois/8-allRois/Roi_14.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/5-allRois/Roi_13.roi -> data/input/reserved_mutants/ktn1-5/rois/5-allRois/Roi_13.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/11-allRois/Roi_12.roi -> data/input/reserved_mutants/ktn1-5/rois/11-allRois/Roi_12.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/11-allRois/Roi_2.roi -> data/input/reserved_mutants/ktn1-5/rois/11-allRois/Roi_2.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/10-allRois/Roi_22.roi -> data/input/reserved_mutants/ktn1-5/rois/10-allRois/Roi_22.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/11-allRois/Roi_13.roi -> data/input/reserved_mutants/ktn1-5/rois/11-allRois/Roi_13.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/4-allRois/Roi_5.roi -> data/input/reserved_mutants/ktn1-5/rois/4-allRois/Roi_5.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/4-allRois/Roi_9.roi -> data/input/reserved_mutants/ktn1-5/rois/4-allRois/Roi_9.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/9-allRois/Roi_21.roi -> data/input/reserved_mutants/ktn1-5/rois/9-allRois/Roi_21.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/12-allRois/Roi_7.roi -> data/input/reserved_mutants/ktn1-5/rois/12-allRois/Roi_7.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/15-allRois/Roi_1.roi -> data/input/reserved_mutants/ktn1-5/rois/15-allRois/Roi_1.roi
+[WOULD MOVE] data/input/mutants/ktn1-5/rois/3-allRois/Roi_8.roi -> data/input/reserved_mutants/ktn1-5/rois/3-allRois/Roi_8.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/12-allRois/Roi_13.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/12-allRois/Roi_13.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/6-allRois/Roi_6.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/6-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/9-allRois/Roi_25.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/9-allRois/Roi_25.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/15-allRois/Roi_5.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/15-allRois/Roi_5.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/11-allRois/Roi_3.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/11-allRois/Roi_3.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/3-allRois/Roi_6.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/3-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/6-allRois/Roi_19.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/6-allRois/Roi_19.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/16-allRois/Roi_6.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/16-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/18-allRois/Roi_6.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/18-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/8-allRois/Roi_7.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/8-allRois/Roi_7.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_6.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/4-allRois/Roi_6.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_3.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/4-allRois/Roi_3.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/5-allRois/Roi_15.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/5-allRois/Roi_15.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/4-allRois/Roi_28.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/4-allRois/Roi_28.roi
+[WOULD MOVE] data/input/mutants/OX16_11_1_4/rois/14-allRois/Roi_2.roi -> data/input/reserved_mutants/OX16_11_1_4/rois/14-allRois/Roi_2.roi
+========================================
+Summary: 45 files selected for moving.
