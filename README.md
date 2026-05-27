@@ -3,7 +3,7 @@
 > Bachelor Thesis Project   
 > Python framework for graph-based feature extraction and statistical analysis of microscopic cell structures using spectral graph theory.
 
-[![Python 3.13](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![Stack](https://img.shields.io/badge/stack-NumPy%20%7C%20SciPy%20%7C%20NetworkX-green.svg)]()
 [![ML](https://img.shields.io/badge/ml-scikit--learn-orange.svg)]()
 
